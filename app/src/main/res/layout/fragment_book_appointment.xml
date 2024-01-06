@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookAppointmentFragment">
+
+    <Button
+        android:id="@+id/buttonAppTime"
+        style="?android:spinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultTime"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppTime" />
+
+
+    <TextView
+        android:id="@+id/textViewAppTime"
+        android:layout_width="101dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/chooseHour"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppFee" />
+
+    <EditText
+        android:id="@+id/editTextAppHospital"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#3200A5A5"
+        android:ems="10"
+        android:inputType="none"
+        android:minWidth="340dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppFullName" />
+
+    <EditText
+        android:id="@+id/editTextAppFee"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#3000A5A5"
+        android:ems="10"
+        android:inputType="none"
+        android:minWidth="340dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppHospital" />
+
+    <Button
+        android:id="@+id/buttonBook"
+        android:layout_width="209dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/buttonBackground"
+        android:text="@string/makeAppointment"
+        android:textColor="@color/primaryBackground"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAppTime" />
+
+    <TextView
+        android:id="@+id/textViewAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/makingAppointment"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <EditText
+        android:id="@+id/editTextAppFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#3200A5A5"
+        android:ems="10"
+        android:inputType="none"
+        android:minWidth="340dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppTitle" />
+
+    <Button
+        android:id="@+id/buttonAppDate"
+        style="?android:spinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultDate"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppDate" />
+
+    <TextView
+        android:id="@+id/textViewAppDate"
+        android:layout_width="101dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/chooseDate"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppFee" />
+</androidx.constraintlayout.widget.ConstraintLayout>

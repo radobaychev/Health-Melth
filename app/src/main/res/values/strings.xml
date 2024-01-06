@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HealthMelt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_1">Fragment 1</string>
+    <string name="Dentists">Зъболекари</string>
+    <string name="Surgeons">Хирурзи</string>
+    <string name="Cardiologists">Кардиолози</string>
+    <string name="AllDoctors">Всички</string>
+    <string name="HomeTitle">Какво Ви е нужно?</string>
+    <string name="medicine">Лекарства</string>
+    <string name="Doctors">Лекари</string>
+    <string name="Orders">Поръчки</string>
+    <string name="Exit">Изход</string>
+    <string name="Hospitals">Болници</string>
+    <string name="trolleyContentDescription">trolley with medicine</string>
+    <string name="findDoctorsContentDescription">Doctors and magnifying glass</string>
+    <string name="infoContentDescription">Info icon</string>
+    <string name="logoutContentDescription">door with arrow</string>
+    <string name="findHospitalsContentDescription">Geolocator icon with plus</string>
+    <string name="logoContentDescription">appLogo</string>
+    <string name="passwordSource">Парола</string>
+    <string name="username">Потребителско Име</string>
+    <string name="login">Вход</string>
+    <string name="makeAccount">Създаване на акаунт</string>
+    <string name="cart">Кошница</string>
+    <string name="order">Поръчай</string>
+    <string name="orders">Поръчки</string>
+    <string name="email">Електронна поща</string>
+    <string name="confirmPassword">Потвърдете паролата</string>
+    <string name="finish">Завърши</string>
+    <string name="register">Регистрация</string>
+    <string name="alreadyHaveAccount">Вече имате акаунт?</string>
+    <string name="defaultTime">11:00</string>
+    <string name="chooseHour">Изберете час:</string>
+    <string name="makeAppointment">Запиши час</string>
+    <string name="makingAppointment">Записване на час</string>
+    <string name="defaultDate">11/11/2023</string>
+    <string name="chooseDate">Изберете дата:</string>
+    <string name="name">Име</string>
+    <string name="address">Адрес</string>
+    <string name="completeOrder">Завършване на поръчката</string>
+    <string name="defaultTextViewText">TextView</string>
+</resources>
